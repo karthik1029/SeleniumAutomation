@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseClass {
+	//base class
 	public static WebDriver driver;
 	
 	public static String getConfigData(String propname) throws IOException
