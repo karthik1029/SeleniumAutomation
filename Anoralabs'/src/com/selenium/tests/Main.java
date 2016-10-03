@@ -1,8 +1,6 @@
 package com.selenium.tests;
 
 import java.io.IOException;
-import java.util.Date;
-
 import com.selenium.base.BaseClass;
 import com.selenium.library.CommonLibrary;
 

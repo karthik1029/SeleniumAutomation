@@ -77,7 +77,6 @@ public class BaseClass {
 		XSSFWorkbook wb=new XSSFWorkbook(fio);
 		XSSFSheet ws=wb.getSheet("Sheet1");
 		int rownum=ws.getLastRowNum();
-		//int columns=ws.getRow(1).getLastCellNum();
 		for(int x=1;x<=rownum;x++)
 		{
 			String a1=ws.getRow(x).getCell(0).getStringCellValue();
